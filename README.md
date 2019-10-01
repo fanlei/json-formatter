@@ -10,7 +10,7 @@ PHP needs to be a minimum version of PHP 7.0.0.
 Globally by Composer
 
 ```shell
-$ composer global require fanlei/json-formatter
+$ composer global require whitephp/json-formatter
 ```
 
 ## Usage
