@@ -7,7 +7,7 @@ PHP needs to be a minimum version of PHP 7.0.0.
 
 ## Installation
 
-Globally by Composer
+Globally by using [Composer](https://getcomposer.org/):
 
 ```shell
 $ composer global require whitephp/json-formatter
