@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+if (version_compare(PHP_VERSION, '7.0.0', '<')) {
+    $message = 'PHP 7.0+ is required.' . PHP_EOL
+        . 'PHP '. PHP_VERSION . 'is running.' . PHP_EOL
+        . PHP_BINARY;
+    exit($message);
+}
+
+if ( ! is_file($argv[1])) {
+    exit('Invalid filename.');
+}
+else {
+    echo json_encode(json_decode(file_get_contents($argv[1])), 
+                     $argv[2] ?? JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+}
