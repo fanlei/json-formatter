@@ -1,7 +1,7 @@
 {
     "name": "codegear/json-formatter",
-    "version": "1.0.1",
-    "time": "2018-07-21",
+    "version": "1.0.2",
+    "time": "2018-07-29",
     "type": "tool",
     "description": "Command-line tool to pretty-print JSON string for human readability",
     "keywords": ["json", "formatter"],
