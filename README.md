@@ -1,5 +1,8 @@
 # jf: JSON Formatter
+
 Command-line tool to pretty-print JSON string for human readability by PHP.
+
+[https://whitephp.net/2018/07/31/jf-cli-json-formatter.html](https://whitephp.net/2018/07/31/jf-cli-json-formatter.html)
 
 ## Requirements
 
@@ -29,11 +32,11 @@ $ jf data.json > data_formatted.json
 ### In VIM
 
 Format current file:
-```VIML
+```viml
 :%!jf %
 ```
 
 or add a keymap in `vimrc`:
-```VIML
+```viml
 nnoremap <Leader>jf :%!jf %<CR>
 ```
