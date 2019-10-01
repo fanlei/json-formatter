@@ -1,0 +1,22 @@
+{
+    "name": "whitephp/json-formatter",
+    "version": "1.0.1",
+    "time": "2018-07-21",
+    "type": "tool",
+    "description": "Command-line tool to pretty-print JSON string for human readability",
+    "keywords": ["json", "formatter"],
+    "homepage": "https://github.com/whitephp/json-formatter",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Lei Fan",
+            "email": "self@whitephp.net",
+            "homepage": "https://whitephp.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "bin": ["./bin/jf"]
+}
