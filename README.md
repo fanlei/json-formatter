@@ -15,7 +15,7 @@ $ composer global require whitephp/json-formatter
 
 ## Usage
 
-### In command-line:
+### In Command-Line
 
 Format file `data.json` and output to screen:
 ```shell
@@ -35,5 +35,5 @@ Format current file:
 
 or add a keymap in `vimrc`:
 ```VIML
-nnoremap <Leader>jf :%!jf %<cr>
+nnoremap <Leader>jf :%!jf %<CR>
 ```
